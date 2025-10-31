@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - Bonsai Arbeitskreis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="logo.png" alt="Bonsai Logo">
+            </div>
+            <nav>
+                <a href="index.html">Startseite</a>
+                <a href="uber-uns.html">Über uns</a>
+                <a href="galerie.html">Galerie</a>
+                <a href="veranstaltungen.html">Veranstaltungen</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="impressum.html">Impressum</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="watermark-bg" style="background-image: url('watermark.png')"></div>
+        <div class="content">
+            <h1>Galerie</h1>
+            
+            <div class="gallery-toggle">
+                <button class="toggle-btn active" onclick="showBonsai()">Beispiel-Bäume</button>
+                <button class="toggle-btn" onclick="showTreffen()">Gemeinsame Treffen</button>
+            </div>
+            
+            <div id="bonsai-section" class="gallery-section">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/984af1d8-d155-4d6a-af7b-a3c68ab7b810.png" alt="Japanischer Ahorn Bonsai">
+                        <p class="gallery-caption">Japanischer Ahorn</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/b1be79bf-24f8-486a-b03d-4c6021faa360.png" alt="Ficus Bonsai">
+                        <p class="gallery-caption">Ficus</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/9acb7e87-c1c9-4108-84c1-93d6e014991a.png" alt="Kiefer Bonsai">
+                        <p class="gallery-caption">Kiefer</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/0855aeea-9b30-4eb0-aca0-7f636d9d7ade.png" alt="Ulme Bonsai">
+                        <p class="gallery-caption">Ulme</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Bonsai+5" alt="Bonsai 5">
+                        <p class="gallery-caption">Beispiel 5</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Bonsai+6" alt="Bonsai 6">
+                        <p class="gallery-caption">Beispiel 6</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Bonsai+7" alt="Bonsai 7">
+                        <p class="gallery-caption">Beispiel 7</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Bonsai+8" alt="Bonsai 8">
+                        <p class="gallery-caption">Beispiel 8</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Bonsai+9" alt="Bonsai 9">
+                        <p class="gallery-caption">Beispiel 9</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Bonsai+10" alt="Bonsai 10">
+                        <p class="gallery-caption">Beispiel 10</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="treffen-section" class="gallery-section" style="display:none;">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/c5ca2f8d-9e6e-4305-911b-0adbea8e7ee2.png" alt="Werkabend">
+                        <p class="gallery-caption">Werkabend</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/b97b1502-9444-438c-b06a-7a4b7deda4a4.png" alt="Workshop">
+                        <p class="gallery-caption">Workshop</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/922db8c8-a5f3-47b4-b871-430fe6e211e8.png" alt="Ausstellung">
+                        <p class="gallery-caption">Ausstellung</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://user-gen-media-assets.s3.amazonaws.com/seedream_images/65e1d72f-79fe-4a6f-9f60-fa171ebe3af1.png" alt="Gemütliches Treffen">
+                        <p class="gallery-caption">Gemütliches Treffen</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Treffen+5" alt="Treffen 5">
+                        <p class="gallery-caption">Treffen 5</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Treffen+6" alt="Treffen 6">
+                        <p class="gallery-caption">Treffen 6</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Treffen+7" alt="Treffen 7">
+                        <p class="gallery-caption">Treffen 7</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/300x300?text=Treffen+8" alt="Treffen 8">
+                        <p class="gallery-caption">Treffen 8</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p><a href="impressum.html">Impressum</a></p>
+    </footer>
+    
+    <script>
+        function showBonsai() {
+            document.getElementById('bonsai-section').style.display = 'block';
+            document.getElementById('treffen-section').style.display = 'none';
+            document.querySelectorAll('.toggle-btn')[0].classList.add('active');
+            document.querySelectorAll('.toggle-btn')[1].classList.remove('active');
+        }
+        function showTreffen() {
+            document.getElementById('bonsai-section').style.display = 'none';
+            document.getElementById('treffen-section').style.display = 'block';
+            document.querySelectorAll('.toggle-btn')[0].classList.remove('active');
+            document.querySelectorAll('.toggle-btn')[1].classList.add('active');
+        }
+    </script>
+</body>
+</html>
